@@ -1,0 +1,12 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.Jobsite = require('./jobsite.model');
+module.exports.County = require('./county.model');
+module.exports.Note = require('./note.model');
+module.exports.Subscription = require('./subscription.model');
+module.exports.ScheduledTest = require('./scheduledTest.model');
+module.exports.RequestLog = require('./requestLog.model');
+module.exports.AdminSettings = require('./adminSettings.model');
+module.exports.Report = require('./report.model');
+module.exports.BackflowTest = require('./backflow.model');
+module.exports.Notification = require('./notification.model');
