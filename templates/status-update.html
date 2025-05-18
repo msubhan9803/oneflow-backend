@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+  </head>
+
+  <body
+    style="
+      background-color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
+        sans-serif;
+    "
+  >
+    <table
+      align="center"
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      width="100%"
+      style="max-width: 37.5em; margin: 0 auto; padding: 20px 0 48px; width: 560px"
+    >
+      <tr style="width: 100%">
+        <td>
+          <img
+            width="180"
+            src="https://one-flow-bucket.s3.us-east-2.amazonaws.com/oneflow-static/oneflow_logo+1.png"
+            alt="one-flow-logo"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td style="font-size: 25px; line-height: 1.4; margin: 0 0 4px; color: #000; padding: 32px 0 0; font-weight: medium">
+          {{subject}}
+        </td>
+      </tr>
+
+      <tr>
+        <td style="font-size: 16px; line-height: 1.4; margin: 0 0 4px; color: #000; padding: 32px 0 0">{{message}}</td>
+      </tr>
+
+      <tr>
+        <td>
+          <hr style="width: 100%; border: none; border-top: 1px solid #eaeaea; margin: 24px 0 26px" />
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 8px 0; font-size: 12px; margin: 0 0 15px; color: #000">SERVICE CONFIRMATION #</td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 0 8px 0; font-size: 18px; line-height: 1; margin: 0 0 15px; color: #000">
+          {{serviceConfirmationNumber}}
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 8px 0; font-size: 12px; margin: 0 0 15px; color: #000">LOCATION</td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 0 8px 0; font-size: 18px; line-height: 1; margin: 0 0 15px; color: #000">{{jobsiteName}}</td>
+      </tr>
+
+      <tr>
+        <td style="padding: 8px 0; font-size: 12px; margin: 0 0 15px; color: #000">SCHEDULED DATE</td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 0 8px 0; font-size: 18px; line-height: 1; margin: 0 0 15px; color: #000">
+          {{scheduledDate}}
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 8px 0; font-size: 12px; margin: 0 0 15px; color: #000">PREFERRED TIME</td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 0 8px 0; font-size: 18px; line-height: 1; margin: 0 0 15px; color: #000">
+          {{preferredScheduledTime}}
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <hr style="width: 100%; border: none; border-top: 1px solid #eaeaea; margin: 24px 0 26px" />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td align="left" width="50%" style="padding: 10px 0">No. of Backflows:</td>
+              <td align="right" width="50%" style="padding: 10px 0">{{numberOfBackflows}}</td>
+            </tr>
+            <tr>
+              <td align="left" style="padding: 10px 0">Rush/Emergency fee:</td>
+              <td align="right" style="padding: 10px 0">${{rushFee}}</td>
+            </tr>
+            <tr>
+              <td align="left" style="padding: 10px 0">
+                <b>TOTAL</b>
+              </td>
+              <td align="right" style="padding: 10px 0">${{total}}</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <hr style="width: 100%; border: none; border-top: 1px solid #eaeaea; margin: 24px 0 26px" />
+        </td>
+      </tr>
+
+      <tr>
+        <td align="left">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td bgcolor="#2bae2b" style="border-radius: 25px; padding: 15px 25px; color: #ffffff; font-weight: 500">
+                CHECK STATUS
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <hr style="width: 100%; border: none; border-top: 1px solid #eaeaea; margin: 24px 0 26px" />
+        </td>
+      </tr>
+
+      <tr style="width: 100%">
+        <td>
+          <div style="display: flex; flex-direction: row; justify-content: space-between">
+            <span> © 2023 Oneflow Backflow Inc. </span>
+
+            <span>Need help? <a href="tel:7148521213">Call us</a></span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
